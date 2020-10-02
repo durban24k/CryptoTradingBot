@@ -1,0 +1,1 @@
+This is a Real Time Crypto Trading Bot in Python using Binance Trading Platform
