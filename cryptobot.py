@@ -22,11 +22,11 @@ def on_message(ws,message):
      global closes
      print("Message Received")
      json_message=json.loads(message)
-     pprint.pprint(json_message)
 
      candle=json_message['k']
      is_candle_closed=candle['x']
      close=candle['c']
+     pprint.pprint(close)
 
      if is_candle_closed:
           print(f"Candle closed at {close}".format())
