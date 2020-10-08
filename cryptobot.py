@@ -56,5 +56,6 @@ def on_message(ws,message):
                          print("BUY! BUY! BUY!")
                          # put binance logic here
 
-ws=websocket.WebSocketApp(SOCKET,on_open=on_open,on_close=on_close,on_message=on_message)
-ws.run_forever()
+if __name__ == '__main__':
+     ws=websocket.WebSocketApp(SOCKET,on_open=on_open,on_close=on_close,on_message=on_message)
+     ws.run_forever()
