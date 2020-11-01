@@ -1,4 +1,4 @@
-import websocket, numpy as np,json,pprint,talib,pandas as pd
+import websocket,numpy as np,json,pprint,talib,pandas as pd
 
 SOCKET="wss://stream.binance.com:9443/ws/ethusdt@kline_1m"
 
