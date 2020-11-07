@@ -1,11 +1,11 @@
 import websocket,numpy as np,json,pprint,talib,pandas as pd
 
-SOCKET="wss://stream.binance.com:9443/ws/ethusdt@kline_1m"
+SOCKET="wss://stream.binance.com:9443/ws/btcusdt@kline_1m"
 
-RSI_PERIOD=29
+RSI_PERIOD=14
 RSI_OVERBOUGHT=70
 RSI_OVERSOLD=30
-TRADE_SYMBOL='ETHUSD'
+TRADE_SYMBOL='BTCUSD'
 TRADE_QUANT=0.05
 
 closes=[]
